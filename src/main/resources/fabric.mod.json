@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "wildmatch",
+  "version": "${version}",
+  "name": "WildMatch",
+  "description": "Anonymous wild 1v1 matching system for Fabric servers.",
+  "authors": ["OpenAI"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.pokux.wildmatch.WildMatchMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
